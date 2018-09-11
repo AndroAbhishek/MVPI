@@ -21,7 +21,6 @@ public class MainActivity extends Activity implements View {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mPresenter = new MainActivityPresenter(this);
     }
 
